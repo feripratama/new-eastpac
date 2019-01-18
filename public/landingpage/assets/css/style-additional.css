@@ -1,0 +1,67 @@
+    .text-contact {
+        color: #f9464a !important;
+    }
+    .text-section {
+        color: #f9464a !important;
+    }
+    .flip-logo{ animation: fliplogo 3s; }
+    @keyframes fliplogo{
+        0%{
+            transform: rotateY(0deg);
+        }
+        100%{
+            transform: rotateY(360deg);
+        }
+    }
+
+    .info{
+        border-radius: 5px;
+        background-color: #ffffffcf;
+        visibility: visible;
+        animation-delay: 1.35s;
+        color: #8c282f;
+        padding: 5px 10px;
+    
+    }
+    .social-bottom{
+        flex-direction: row;
+        display: flex;
+        padding: 10px 0px;
+        margin-top: 10px;
+    }
+    .social-bottom li{
+        display: list-item;
+        margin: 0px 5px;	
+    }
+    .social-bottom a{
+        color: #fff;
+        text-align: center;
+        line-height: 24px;
+        width: 24px;
+        display: block;
+    }
+    .contact-info li span{
+        line-height: 15px;
+        font-size: 13px;
+    }
+    .contact-info li{
+    text-align: center;
+            font-weight: 500;	
+            width:33.33%;
+    }  
+    
+    .btn-edit{
+        background: #5cb85c !important;
+        padding: 6px 12px;
+        min-width: auto;
+        line-height: 10px;
+        margin-right: 0px;
+        border-radius: 12px !important;
+    }
+    .btn-edit:hover{
+        color:#FFF !important;
+    }
+    .btn-for-upload{
+        font-size:12px;
+        width:180px;
+    }
